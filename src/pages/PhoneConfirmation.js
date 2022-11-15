@@ -2,13 +2,16 @@ import React, { useState } from "react";
 import style from '../style/PhoneConfirmation.module.css'
 import { Link } from "react-router-dom";
 import PhoneInput from "react-phone-number-input";
+import 'react-phone-number-input/style.css'
+
+
 
 export default function  PhoneConfirmation() {
-    const {value, setValue} = useState();
+    const [value, setValue] = useState();
     return (
         <div className={style.PhoneConfirmationContainer}>
             <Link exact to="/" className={style.backBtn}>
-                <img src="/images/arrow.png" alt="" />
+                <img src="/images/left.png" alt="" />
             </Link>
             <h1>Enter your phone</h1>
             <PhoneInput 
