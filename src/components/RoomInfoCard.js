@@ -7,7 +7,6 @@ import data from "../data/roomCard.json";
 export default function RoomInfoCard(props) {
     return (
         <>
-            <h2>I'm room info card</h2>
             {data.map((item) => (
                 <div>
                     <div>
