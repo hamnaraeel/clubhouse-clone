@@ -35,7 +35,7 @@ export default function Explore() {
                     <div>
                         <div className="d-flex align-items-center">
                             <img src="/images/avatar.png" />
-                            <div className="ml-2">
+                            <div className="ms-2">
                                 <h5>{item.title}</h5>
                                 <p>{item.despcrition}</p>
                             </div>

@@ -57,7 +57,7 @@ export default function StartRoom(props) {
                 <button className={style.letGoBtn}
                 onClick={() => {
                     props.setSheetCreateRoom(true);
-                    props.setSheetVisible(true);
+                    props.setSheetVisible(false);
                 }}>
                     🎉Let's go
                 </button>

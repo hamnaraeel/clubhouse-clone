@@ -29,7 +29,7 @@ export default function Home() {
                 alignItems: "center",
                 justifyContent: "center",
             }}>
-                <img src="/images/loader.gif" alt="" />
+                <img src="/images/loader.gif" style={{width: "50px"}} alt="" />
             </div>
         ) : (
             ""
